@@ -1,0 +1,255 @@
+body{
+    font-family:'Arial', sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+.footer p {
+    font-size: 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container p {
+    font-size: 14px;
+}
+.footer-container b {
+    font-size: 18px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright p {
+    font-size: 12px;
+}
+.banner-title {
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 170px;
+    font-size: 40px;
+}
+.banner-text {
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.creator {
+    position: relative;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border: solid white 50px;
+    left: 70px;
+}
+.col-lg-6 {
+    position: absolute;
+    right: 50px;
+    top: 700px;
+}
+.cardone {
+    position: relative;
+    left: 200px;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+}
+.cardone img {
+    position: relative;
+    left: 0px;
+    height: 350px;
+    border: 1px solid black;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+    width: 300px;
+}
+.cardtwo img {
+    position: relative;
+    left: 0px;
+    height: 350px;
+    border: 1px solid black;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+    width: 300px;
+}
+.cardthree img {
+    position: relative;
+    left: 0px;
+    height: 350px;
+    border: 1px solid black;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+    width: 300px;
+}
+.cardtwo {
+    position: relative;
+    left: 250px;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+}
+.cardthree {
+    position: relative;
+    left: 300px;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+}
+.cardphoto {
+    position: relative;
+    left: 0px;
+    width: 254px;
+    height:300px;
+}
+.card-title {
+    text-align: left;
+}
+.card-text {
+    text-align: left;
+}
+.shoe-page h1 {
+    position: absolute;
+    right: 305px;
+    top: 110px;
+}
+.shoe-page p {
+    position: absolute;
+    right: 416px;
+    top: 170px;
+    font-size: 20px;
+}
+.col-lg-4 {
+    position: absolute;
+    right: 75px;
+    top: 250px; 
+}
+.col-lg-4 p{
+    font-size: 20px;
+}
+#carouselExampleSlidesOnly img {
+    height: 500px;
+}
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+.col-lg-1 {
+    position: absolute;
+    left: 15px;
+    top: 70px;
+    font-size: 40px;
+}
+.cart-counter {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-modal {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 999;
+}
+.cart-content {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.cart-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.add-to-cart {
+    position: absolute;
+    right: 60px;
+    bottom: 130px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove-one, .remove-all {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.remove-one:hover, .remove-all:hover {
+    background-color: #c82333;
+}
+.facebook {
+    height: 50px;
+}
+.instagram {
+    height: 100px;
+}
+.x {
+    height: 50px;
+}
+.checkout-btn{
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+    text-decoration-line: none;
+}
+.checkout-btn a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the same color as the button */
+}
+.shoe-sizes {
+    position: absolute;
+    right: 320px;
+    top: 300px;
+}
+.payed{
+    position: relative;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: solid white 50px;
+    left: 500px;
+}
+.payedp {
+    position: relative;
+    left: 400px;
+    border-bottom: solid white 100px;
+}
+.carousel-caption p {
+    font-size: 30px;
+}
+.carousel-caption h5 {
+    font-size: 30px;
+}
+.card-img-top {
+    position: relative;
+    left: 150px;
+    height: 700px;
+    border: 1px solid black;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+    width: 550px;
+}
