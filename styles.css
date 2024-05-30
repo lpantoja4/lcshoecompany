@@ -60,7 +60,7 @@ footer {
     position: relative;
     left: 200px;
     border-top: 50px solid white;
-    border-bottom: 50px solid white;
+    border-bottom: 200px solid white;
 }
 .cardone img {
     position: relative;
@@ -93,13 +93,13 @@ footer {
     position: relative;
     left: 250px;
     border-top: 50px solid white;
-    border-bottom: 50px solid white;
+    border-bottom: 200px solid white;
 }
 .cardthree {
     position: relative;
     left: 300px;
     border-top: 50px solid white;
-    border-bottom: 50px solid white;
+    border-bottom: 200px solid white;
 }
 .cardphoto {
     position: relative;
@@ -177,7 +177,7 @@ footer {
 .add-to-cart {
     position: absolute;
     right: 60px;
-    bottom: 130px;
+    bottom: 400px;
     background-color: black;
     border-color: black;
     color: white;
@@ -217,8 +217,8 @@ footer {
     text-decoration-line: none;
 }
 .checkout-btn a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the same color as the button */
+    text-decoration: none;
+    color: inherit;
 }
 .shoe-sizes {
     position: absolute;
