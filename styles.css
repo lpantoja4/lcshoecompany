@@ -235,8 +235,8 @@ footer {
 }
 .payedp {
     position: relative;
-    left: 400px;
-    border-bottom: solid white 100px;
+    left: 600px;
+    border-bottom: solid white 400px;
 }
 .carousel-caption p {
     font-size: 30px;
